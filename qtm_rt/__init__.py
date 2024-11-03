@@ -12,7 +12,8 @@ if PYTHON3:
     from .qrt import connect, QRTConnection
     from .protocol import QRTCommandException
     from .control import TakeControl
-
+    from .qt_protocol import QtQTMProtocol
+    from .qt_qrt import QtQRTConnection
 from .packet import QRTPacket, QRTEvent
 from .receiver import Receiver
 
